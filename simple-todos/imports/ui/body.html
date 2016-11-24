@@ -6,6 +6,10 @@
         <input type="checkbox" />
         Hide Completed Tasks
       </label>
+	  
+	    {{> loginButtons}}
+		{{#if currentUser}}
+	  
 	        <form class="new-task">
         <input type="text" name="text" placeholder="Type to add new tasks" />
       </form>
